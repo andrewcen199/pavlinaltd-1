@@ -1,0 +1,28 @@
+main#projects h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #94211d;
+}
+main#projects h2 {
+  color: #94211d;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+main#projects .film-poster img {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+  main#projects h1 {
+    font-size: 1.5rem;
+  }
+  main#projects h2 {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 576px) {
+  main#projects h2 {
+    font-size: 1.2rem;
+  }
+}/*# sourceMappingURL=projects.css.map */

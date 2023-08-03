@@ -1,0 +1,29 @@
+nav {
+  font-size: 1.1rem !important;
+  transition: background 0.35s ease;
+  z-index: 100;
+}
+nav img {
+  height: 40px;
+}
+@media (max-width: 767.98px) {
+  nav img {
+    height: 30px;
+  }
+}
+nav .navbar-toggler {
+  border: none;
+}
+nav .navbar-toggler:focus {
+  box-shadow: none;
+}
+nav .navbar-toggler:focus svg {
+  color: #94211d;
+}
+nav .navbar-toggler svg {
+  font-size: 2em;
+  transition: all 0.3s ease;
+}
+nav .navbar-toggler svg:hover {
+  color: #94211d;
+}/*# sourceMappingURL=navbar.css.map */

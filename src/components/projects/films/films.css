@@ -1,0 +1,44 @@
+main.film h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #94211d;
+}
+main.film h2 {
+  color: #94211d;
+  font-size: 1rem;
+}
+main.film section.synopsis p {
+  text-align: justify;
+  line-height: 1.4rem;
+}
+main.film section.synopsis .quote p {
+  color: #94211d;
+}
+main.film audio {
+  width: 30px;
+  height: 20px;
+}
+main.film img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+main.film img.header {
+  height: 180px;
+  width: auto;
+}
+
+@media (max-width: 1199.98px) {
+  main.film h1 {
+    font-size: 1.7rem;
+  }
+  main.film section.synopsis p {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+}
+@media (max-width: 767.98px) {
+  main.film h1 {
+    font-size: 1.5rem;
+  }
+}/*# sourceMappingURL=films.css.map */
