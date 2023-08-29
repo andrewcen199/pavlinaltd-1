@@ -1,16 +1,16 @@
 import React, { useEffect, useRef } from "react";
 import emailjs from "emailjs-com";
 import "./contact.css";
-import SimpleMap from "./map";
+// import SimpleMap from "./map";
 
 const Contact = () => {
   useEffect(() => window.scroll(0, 0));
 
-  const location = {
-    address: "380 Rector Pl., 21E New York, NY 10280, USA",
-    lat: 40.709341162526115,
-    lng: -74.01780974617034,
-  };
+  // const location = {
+  //   address: "380 Rector Pl., 21E New York, NY 10280, USA",
+  //   lat: 40.709341162526115,
+  //   lng: -74.01780974617034,
+  // };
 
   const form = useRef();
 

@@ -1,6 +1,6 @@
 import './App.css';
-import { Routes, Route, Link } from "react-router-dom"
-import { useState, useEffect } from 'react';
+import { Routes, Route } from "react-router-dom"
+// import { useState, useEffect } from 'react';
 
 import NavBar from './components/navbar/navbar';
 import Home from './components/home/home';
@@ -28,21 +28,21 @@ import Between from './components/projects/films/between';
 
 function App() {
 
-  const [mobile, setMobile] = useState(false)
+  // const [mobile, setMobile] = useState(false)
 
-  const showMobileMenu = () => {
-      if (window.innerWidth <= 960) {
-          setMobile(true)
-      } else {
-          setMobile(false)
-      }
-  }
+  // const showMobileMenu = () => {
+  //     if (window.innerWidth <= 960) {
+  //         setMobile(true)
+  //     } else {
+  //         setMobile(false)
+  //     }
+  // }
 
-  useEffect(() => {
-      showMobileMenu()
-      window.addEventListener('resize', showMobileMenu);
-      // return window.removeEventListener('resize', showMobileMenu)     
-  }, [])
+  // useEffect(() => {
+  //     showMobileMenu()
+  //     window.addEventListener('resize', showMobileMenu);
+  //     // return window.removeEventListener('resize', showMobileMenu)     
+  // }, [])
 
 
   return (

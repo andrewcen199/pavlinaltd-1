@@ -1,5 +1,5 @@
-import React, { useRef, useEffect } from "react";
-import emailjs from "emailjs-com";
+import React, { useEffect } from "react";
+// import emailjs from "emailjs-com";
 
 import "./footer.css";
 
