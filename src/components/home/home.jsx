@@ -29,7 +29,8 @@ const Home = () => {
               Press on. Nothing in the world can take the place of persistence.
               Talent will not: nothing is more common than unrewarded talent.
               Education alone will not: the world is full of educated failures.
-              Persistence alone is omnipotent. <span className="float-end">Calvin Coolidge</span>
+              Persistence alone is omnipotent.{" "}
+              <span className="float-end">Calvin Coolidge</span>
             </h3>
             {/* <p className="p-0 px-xl-5 text-end">Calvin Coolidge</p> */}
           </div>
@@ -119,8 +120,11 @@ const Home = () => {
           </div>
         </section> */}
         <section className="films container px-md-0 m-0 p-3 py-4 p-lg-0 px-lg-1">
-          <div className="col-12 px-xl-0 pb-xl-0 m-0">
-            <h2 className="p-0 px-xl-0">Active Productions</h2>
+          <div
+            className="col-12 d-flex align-items-center justify-content-center p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0 rounded text-center"
+            style={{ backgroundColor: "#f0f0f0", minHeight: "50px" }}
+          >
+            <h2 className="my-0">Active Productions</h2>
           </div>
           <div className="w-100 p-0 p-xl-0 py-xl-3">
             <div className="row p-0 pb-4 p-xl-0 py-xl-3">
@@ -155,10 +159,15 @@ const Home = () => {
           </div>
           <div className="w-100 p-0 p-xl-0 py-xl-3">
             <div className="row book-row p-0 pb-md-4 p-xl-5 py-xl-3 px-xl-0 justify-content-center">
-              <h2 className="py-2 ps-lg-0 mb-lg-4">Media Projects</h2>
+              <div
+                className="col-12 d-flex align-items-center justify-content-center p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0 rounded text-center"
+                style={{ backgroundColor: "#f0f0f0", minHeight: "50px" }}
+              >
+                <h2 className="my-0">Media Projects</h2>
+              </div>
               <div className="film-poster row py-3 ps-md-4 py-md-2 pe-lg-4 col-6 col-lg">
                 <div className="row w-100 h-100">
-                <Link to="/between-two-worlds" className="col-12 col-lg">
+                  <Link to="/between-two-worlds" className="col-12 col-lg">
                     <img
                       src={BetweenTwoWorlds}
                       className="img-fluid rounded-3"
@@ -224,12 +233,16 @@ const Home = () => {
           </div>
 
           <div className="col-12 m-0 p-0 p-xl-0 py-xl-3">
-            <hr/>
+            <hr />
           </div>
 
-          <div className="col-12 p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0 rounded text-center align-items-center" style={{ backgroundColor: '#f0f0f0' }}>
-            <h2 className="p-0">In Development</h2>
+          <div
+            className="col-12 d-flex align-items-center justify-content-center p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0 rounded text-center"
+            style={{ backgroundColor: "#f0f0f0", minHeight: "50px" }}
+          >
+            <h2 className="my-0">In Development</h2>
           </div>
+
           <div className="w-100 p-0 p-xl-0 py-xl-3">
             <div className="row p-0">
               <div className="film-poster py-3 py-md-2 col-5-12 mt-lg-0">
@@ -250,10 +263,11 @@ const Home = () => {
         >
           <div className="intro col-12 p-0 py-md-4 pt-xl-0 px-xl-0 m-0">
             <h2 className="p-0">
-              <span className="fst-italic fw-bolder">Pavlina Ltd.</span> is a New York based independent production company
-              engaged in the development and production of feature films and
-              documentaries. <span className="fst-italic">FilmsZaNas d.o.o.e.l.</span> is the co-producing partner
-              in the Republic of Macedonia.
+              <span className="fst-italic fw-bolder">Pavlina Ltd.</span> is a
+              New York based independent production company engaged in the
+              development and production of feature films and documentaries.{" "}
+              <span className="fst-italic">FilmsZaNas d.o.o.e.l.</span> is the
+              co-producing partner in the Republic of Macedonia.
             </h2>
           </div>
         </section>

@@ -19,6 +19,7 @@ main section.films h2 {
   color: #94211d;
   font-size: 1.7rem;
   font-weight: 600;
+  padding-bottom: 30px ;
 }
 main section.films h3 {
   color: #000;
