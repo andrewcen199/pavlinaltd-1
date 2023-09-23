@@ -263,7 +263,7 @@ const Home = () => {
         >
           <div className="intro col-12 p-0 py-md-4 pt-xl-0 px-xl-0 m-0">
             <h2 className="p-0">
-              <span className="fst-italic fw-bolder">Pavlina Ltd.</span> is a
+              <span className="fst-italic">Pavlina Ltd.</span> is a
               New York based independent production company engaged in the
               development and production of feature films and documentaries.{" "}
               <span className="fst-italic">FilmsZaNas d.o.o.e.l.</span> is the
