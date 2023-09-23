@@ -59,6 +59,7 @@ main section#quote-container p::before {
   font-family: "times new roman", serif;
 }
 
+
 @media (min-width: 992px) {
   main section.films div.book-row {
     padding-left: 1rem !important;

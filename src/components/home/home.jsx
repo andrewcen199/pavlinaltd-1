@@ -227,7 +227,7 @@ const Home = () => {
             <hr/>
           </div>
 
-          <div className="col-12 p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0">
+          <div className="col-12 p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0 rounded text-center align-items-center" style={{ backgroundColor: '#f0f0f0' }}>
             <h2 className="p-0">In Development</h2>
           </div>
           <div className="w-100 p-0 p-xl-0 py-xl-3">
