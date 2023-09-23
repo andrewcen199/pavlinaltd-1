@@ -65,6 +65,14 @@ const NavBar = () => {
             <li class="nav-item">
               <Link
                 class="nav-link py-4 py-lg-2 px-lg-2 ms-lg-5"
+                to="/in-development"
+              >
+                In Development
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link
+                class="nav-link py-4 py-lg-2 px-lg-2 ms-lg-5"
                 to="/gallery/"
               >
                 Gallery
