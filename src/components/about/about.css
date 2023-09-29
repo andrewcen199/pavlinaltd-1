@@ -33,8 +33,6 @@ main#about div.carousel div.carousel-item div.carousel-shadow {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6666666667) 0%, transparent 100%);
 }
 main#about img {
-  width: 6.2rem;
-  height: 6.2rem;
   object-fit: cover;
   object-position: center right;
 }

@@ -27,14 +27,11 @@ main section.films h3 {
   font-weight: 400;
   font-family: "Roboto", sans-serif !important;
 }
-main section.films div.film-poster img {
-  width: 100%;
+.indev {
+
   height: 100%;
-  object-fit: cover;
 }
-main section.films div.film-poster div.row {
-  background-color: #cdcdcd;
-}
+
 main section#quote-container {
   font-size: 1.8rem;
   font-weight: 600;

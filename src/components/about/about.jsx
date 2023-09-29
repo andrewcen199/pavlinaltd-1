@@ -18,9 +18,52 @@ const About = () => {
     <main id="about" className="container p-3 py-4 p-lg-0">
       <div className="about-container px-3 py-4 p-lg-0">
         <div className="company row m-0 mb-4">
+          <div className="col-12 p-3 py-4 p-xl-5 m-0">
+            <h2 className="jung-quote text-center p-0 fst-italic">
+              "The creative mind plays with the objects it loves."<br></br>
+              <span className="float-end">Calvin Coolidge</span>
+            </h2>
+          </div>
           <div className="col-12 p-0 pe-lg-3 mb-4 mb-lg-0">
-            <h2 className="text-center mb-4">
-              Production - A combination of persistence ... and blind faith.
+            <p className="mb-2 mb-xl-2">
+              <img
+                src={pavlina}
+                alt="Pavlina Proevska"
+                className="d-block h-100 w-50 float-left"
+              />
+              A native of Macedonia,{" "}
+              <strong className="fs-5">Pavlina Proevska</strong> studied Public
+              Relations in Paris and worked in the news department at With the
+              CBS News 1984' Summer Olympics Team as well as in the field, for
+              USA Cable Networks. The highlights of her tenure at With the CBS
+              News 1984' Summer Olympics Team was as part of the team covering
+              the Regan-Gorbachev Summit in Geneva, in 1986. For the USA Cable
+              Network, she was part of the team working on the promotion of the
+              thriller Death Train, in Slovenia in 1993 where she was introduced
+              to Irish drinking by the star of the film, Pierce Brosnan.
+            </p>
+            <p className="mb-2 mb-xl-2">
+              Ms. Proevska is currently working on the REDUX of The Magic
+              Snowman for release on DVD/Blu-Ray and VOD platforms in 2022. She
+              is also in pre-production of a short docu-drama, My Heart Is No
+              Longer an Orphan, and she will be directing it late this summer in
+              Montenegro, Macedonia.
+            </p>
+            <p className="mb-2 mb-xl-2">
+              She has recently completed two documentary films, The Promise of
+              Perfume, and the biopic My American Pilgrimage.
+            </p>
+            <p className="mb-2 mb-xl-2">
+              Ms. Proevska is active in the promotion of Macedonia's cultural
+              heritage as the founder and Executive Director of the Macedonian
+              Arts Council. She is fluent in five languages and lives and works
+              in New York City.
+            </p>
+          </div>
+
+          <div className="col-12 p-0 pe-lg-3 mb-4 mb-lg-0">
+            <h2 className="text-center mb-4 fst-italic">
+             "Production - A combination of persistence ... and blind faith."
             </h2>
           </div>
           <div className="col-12 col-lg-6 col-xl-4  p-0 pe-lg-3 mb-4 mb-lg-0">
@@ -126,48 +169,6 @@ const About = () => {
               develops and produced and while through its feature films it
               offers popular entertainment, the documentaries celebrate people
               whose lives have left an imprint on the human experience.
-            </p>
-          </div>
-          <div className="col-12 p-3 py-4 p-xl-5 m-0">
-            <h2 className="jung-quote text-center p-0">
-              The creative mind plays with the objects it loves.{" "}
-              <span className="float-end">Calvin Coolidge</span>
-            </h2>
-          </div>
-          <div className="col-12 p-0 pe-lg-3 mb-4 mb-lg-0">
-            <p className="mb-2 mb-xl-2">
-              <img
-                src={pavlina}
-                alt="Pavlina Proevska"
-                className="float-start p-2"
-              />
-              A native of Macedonia,{" "}
-              <strong className="fs-5">Pavlina Proevska</strong> studied Public
-              Relations in Paris and worked in the news department at With the
-              CBS News 1984' Summer Olympics Team as well as in the field, for
-              USA Cable Networks. The highlights of her tenure at With the CBS
-              News 1984' Summer Olympics Team was as part of the team covering
-              the Regan-Gorbachev Summit in Geneva, in 1986. For the USA Cable
-              Network, she was part of the team working on the promotion of the
-              thriller Death Train, in Slovenia in 1993 where she was introduced
-              to Irish drinking by the star of the film, Pierce Brosnan.
-            </p>
-            <p className="mb-2 mb-xl-2">
-              Ms. Proevska is currently working on the REDUX of The Magic
-              Snowman for release on DVD/Blu-Ray and VOD platforms in 2022. She
-              is also in pre-production of a short docu-drama, My Heart Is No
-              Longer an Orphan, and she will be directing it late this summer in
-              Montenegro, Macedonia.
-            </p>
-            <p className="mb-2 mb-xl-2">
-              She has recently completed two documentary films, The Promise of
-              Perfume, and the biopic My American Pilgrimage.
-            </p>
-            <p className="mb-2 mb-xl-2">
-              Ms. Proevska is active in the promotion of Macedonia's cultural
-              heritage as the founder and Executive Director of the Macedonian
-              Arts Council. She is fluent in five languages and lives and works
-              in New York City.
             </p>
           </div>
         </div>

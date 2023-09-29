@@ -15,9 +15,9 @@ const Future = () => {
           id="previous-films"
           className="container p-3 py-4 py-md-0 pb-md-3 px-md-5 m-0"
         >
-          <div className="w-100 p-0 p-xl-5 py-xl-3">
+          <div className="w-100 p-0 p-xl-5 py-xl-3 " >
             <div className="row p-0 pb-4 px-3 p-xl-5 py-xl-3">
-              <div className="col-12 col-md-6">
+              <div className="col-12 col-md-6" id="borders-in-heaven">
                 <h1>Borders in Heaven</h1>
               </div>
               <section className="synopsis container p-3 py-4 py-md-0 m-0">
@@ -59,7 +59,7 @@ const Future = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-12">
+                <div className="col-12" id="the-magic-snowman-returns">
                   <hr className="w-100 mb-5" />
                   <h1>The Magic Snowman Returns</h1>
                 </div>
@@ -96,7 +96,7 @@ const Future = () => {
                     />
                   </div>
                 </div>
-                <div className="col-12">
+                <div className="col-12" id="keratza">
                   <hr className="w-100 mb-5" />
                   <h1>Keratza</h1>
                 </div>

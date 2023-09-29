@@ -7,12 +7,18 @@ import MyHeartIsNoLongerAnOrphan from "../../assets/films/posters/my-heart-is-no
 import GustellaDances from "../../assets/films/posters/gustella-dances.png";
 import BetweenTwoWorlds from "../../assets/films/posters/between-two-worlds.png";
 import TheMagicSnowmanAudiobook from "../../assets/films/posters/the-magic-snowman-audiobook.png";
-import InDevelopment from "../../assets/films/posters/in-development.png";
+import BordersInHeaven from "../../assets/films/posters/borders in heaven.jpg";
+import Keratza from "../../assets/films/posters/keratza-poster.jpeg";
+import TheMagicSnowmanReturns from "../../assets/films/posters/The-Magic-Snowman-Returns.JPG";
+import RiceMilk from "../../assets/films/R_M_Stilettos.jpg";
 
 import header from "../../assets/brand/homepage-header.jpg";
 
 const Home = () => {
   useEffect(() => window.scrollTo(0, 0));
+
+
+  
   return (
     <main>
       <div className="container-fluid">
@@ -132,7 +138,7 @@ const Home = () => {
                 <Link to="/the-magic-snowman-redux">
                   <img
                     src={TheMagicSnowmanRedux}
-                    className="img-fluid rounded-3"
+                    className="img-fluid rounded-3 indev"
                     alt="The Magic Snowman Redux"
                   />
                 </Link>
@@ -165,46 +171,75 @@ const Home = () => {
               >
                 <h2 className="my-0">Media Projects</h2>
               </div>
-              <div className="film-poster row py-3 ps-md-4 py-md-2 pe-lg-4 col-6 col-lg">
-                <div className="row w-100 h-100">
+              <div className="film-poster row py-2 ps-md-4 py-md-2 pe-lg-4 col-2 col-lg-6 text-center">
+                <div className="row bg-info rounded mt-4">
                   <Link to="/between-two-worlds" className="col-12 col-lg">
                     <img
                       src={BetweenTwoWorlds}
-                      className="img-fluid rounded-3"
+                      className="img-fluid rounded-3 p-4 h-100"
                       alt="Between Two Worlds"
                     />
                   </Link>
-                  <div className="col pt-2 py-lg-5 pt-lg-4 d-none d-lg-block">
+                  <div className="col pt-2 pb-2 py-lg-5 pt-lg-4 d-none d-lg-block">
                     <h3 className="pb-md-2 pb-2 mt-lg-2">Between Two Worlds</h3>
                     <p>Written by Мишeko</p>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <p class="text-center my-2">Poetry read by Lily Talevski</p>
+                      <p class="text-center my-2">Tori Naumovski</p>
+                      <p class="text-center my-2">Francis Dumaurier</p>
                   </div>
                 </div>
               </div>
-              <div className="film-poster row py-3 ps-md-4 py-md-2 ps-lg-4 col-6 col-lg">
-                <div className="row w-100 h-100">
+              <div className="film-poster row py-3 ps-md-4 py-md-2 ps-lg-4 col-2 col-lg-6">
+                <div className="row bg-warning rounded mt-4">
                   <Link to="/the-magic-snowman-book" className="col-12 col-lg">
                     <img
                       src={TheMagicSnowmanAudiobook}
-                      className="img-fluid rounded-3"
+                      className="img-fluid rounded-3 p-4 h-100"
                       alt="The Magic Snowman"
                     />
                   </Link>
-                  <div className="col pt-2 py-lg-5 pt-lg-4 d-none d-lg-block">
+                  <div className="col pt-2 py-lg-5 pt-lg-4 d-none d-lg-block text-center">
                     <h3 className="pb-md-2 pb-2 mt-lg-2">The Magic Snowman</h3>
-                    <p>
-                      With Sir Roger Moore
-                      <br />
-                      as the voice of The Magic Snowman
-                      <br />
-                      <br />
-                      Narrated by Lilly Talevski
-                      <br />
-                      Music by ben Boian B. Goss
-                      <br />
-                      Sound Design by Mason Ryan
-                      <br />
-                      Release Date: April 2023
-                    </p>
+                    <div class="d-flex flex-column justify-content-between align-items-center mt-4">
+                      <p class="text-center my-2">
+                        With Sir Roger Moore as the voice of The Magic Snowman
+                      </p>
+                      <p class="text-center my-2">Narrated by Lilly Talevski</p>
+                      <p class="text-center my-2">Music by ben Boian B. Goss</p>
+                      <p class="text-center my-2">Sound Design by Mason Ryan</p>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <p class="text-center my-2">Release Date: April 2023</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -220,6 +255,11 @@ const Home = () => {
                   as THE VOICE of The Magic Snowman
                   <br />
                   <br />
+                  <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
                   Narrated by Lilly Talevski
                   <br />
                   Music by ben Boian B. Goss
@@ -243,17 +283,44 @@ const Home = () => {
             <h2 className="my-0">In Development</h2>
           </div>
 
-          <div className="w-100 p-0 p-xl-0 py-xl-3">
-            <div className="row p-0">
-              <div className="film-poster py-3 py-md-2 col-5-12 mt-lg-0">
-                <Link to="/in-development">
+          <div className="w-100 p-0 p-xl-0 py-xl-3 d-flex justify-content-center mt-2">
+              <div className="film-poster row mt-lg-0 h-100">
+              <div className="col-6 col-md-3">
+                <Link to="#borders-in-heaven">
                   <img
-                    src={InDevelopment}
-                    className="img-fluid rounded-3"
+                    src={BordersInHeaven}
+                    className="img-fluid rounded-3 indev"
                     alt="In Development"
                   />
                 </Link>
-              </div>
+                  </div>
+                  <div className="col-6 col-md-3">
+                <Link to={`#keratza`}>
+                  <img
+                    src={Keratza}
+                    className="img-fluid rounded-3 indev"
+                    alt="In Development"
+                  />
+                </Link>
+                </div>
+                <div className="col-6 col-md-3">
+                <Link to="/in-development">
+                  <img
+                    src={TheMagicSnowmanReturns}
+                    className="img-fluid rounded-3 indev"
+                    alt="In Development"
+                  />
+                </Link>
+                </div>
+                <div className="col-6 col-md-3">
+                <Link to="/in-development">
+                  <img
+                    src={RiceMilk}
+                    className="img-fluid rounded-3 indev"
+                    alt="In Development"
+                  />
+                </Link>
+                </div>
             </div>
           </div>
         </section>
@@ -263,9 +330,9 @@ const Home = () => {
         >
           <div className="intro col-12 p-0 py-md-4 pt-xl-0 px-xl-0 m-0">
             <h2 className="p-0">
-              <span className="fst-italic">Pavlina Ltd.</span> is a
-              New York based independent production company engaged in the
-              development and production of feature films and documentaries.{" "}
+              <span className="fst-italic">Pavlina Ltd.</span> is a New York
+              based independent production company engaged in the development
+              and production of feature films and documentaries.{" "}
               <span className="fst-italic">FilmsZaNas d.o.o.e.l.</span> is the
               co-producing partner in the Republic of Macedonia.
             </h2>
