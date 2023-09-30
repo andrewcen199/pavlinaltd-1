@@ -19,7 +19,7 @@ import footerLogo from "../../assets/brand/logo-banner-white.png";
 const Footer = () => {
   useEffect(() => window.scroll(0, 0));
   return (
-    <footer className="text-light bg-black px-3 pt-5 pb-3 p-md-5 mt-auto ">
+    <footer className="text-light custom-bg-color px-3 pt-5 pb-3 p-md-5 mt-auto ">
       <div class="container px-3 py-xl-4">
         <section>
           <div className="container">

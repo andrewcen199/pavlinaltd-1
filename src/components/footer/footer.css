@@ -74,6 +74,9 @@ footer section:last-of-type span a {
 footer section:last-of-type span a:hover {
   color: #d30000;
 }
+.custom-bg-color {
+  background-color: #94211d;
+}
 footer .back-to-top {
   position: absolute;
   bottom: 0;

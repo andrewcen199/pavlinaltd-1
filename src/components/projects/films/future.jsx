@@ -1,12 +1,24 @@
 import React, { useEffect } from "react";
 import "./films.css";
+import { useLocation } from 'react-router-dom';
 
 import Keratza from "../../../assets/films/keraca-visuleva.webp";
 import RMS from "../../../assets/films/R_M_Stilettos.jpg";
 import SMR from "../../../assets/films/snowmanreturns.jpg";
 
 const Future = () => {
-  useEffect(() => window.scroll(0, 0));
+
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const targetElement = document.querySelector(location.hash);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
+  
 
   return (
     <main className="film">
@@ -15,9 +27,9 @@ const Future = () => {
           id="previous-films"
           className="container p-3 py-4 py-md-0 pb-md-3 px-md-5 m-0"
         >
-          <div className="w-100 p-0 p-xl-5 py-xl-3">
+          <div className="w-100 p-0 p-xl-5 py-xl-3 " >
             <div className="row p-0 pb-4 px-3 p-xl-5 py-xl-3">
-              <div className="col-12 col-md-6">
+              <div className="col-12 col-md-6" id="borders-in-heaven">
                 <h1>Borders in Heaven</h1>
               </div>
               <section className="synopsis container p-3 py-4 py-md-0 m-0">
@@ -59,7 +71,7 @@ const Future = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-12">
+                <div className="col-12" id="the-magic-snowman-returns">
                   <hr className="w-100 mb-5" />
                   <h1>The Magic Snowman Returns</h1>
                 </div>
@@ -96,7 +108,7 @@ const Future = () => {
                     />
                   </div>
                 </div>
-                <div className="col-12">
+                <div className="col-12" id="keratza">
                   <hr className="w-100 mb-5" />
                   <h1>Keratza</h1>
                 </div>
@@ -142,7 +154,7 @@ const Future = () => {
                     <img src={Keratza} alt="Keratza" className="img-fluid" />
                   </div>
                 </div>
-                <div className="col-12">
+                <div className="col-12" id="rice">
                   <hr className="w-100 mb-5" />
                   <h1>Rice, Milk and Stilettos</h1>
                 </div>
