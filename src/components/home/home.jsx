@@ -12,10 +12,13 @@ import Keratza from "../../assets/films/posters/keratza-poster.jpeg";
 import TheMagicSnowmanReturns from "../../assets/films/posters/The-Magic-Snowman-Returns.JPG";
 import RiceMilk from "../../assets/films/R_M_Stilettos.jpg";
 
+
+
 import header from "../../assets/brand/homepage-header.jpg";
 
 const Home = () => {
   useEffect(() => window.scrollTo(0, 0));
+
 
 
   
@@ -286,7 +289,7 @@ const Home = () => {
           <div className="w-100 p-0 p-xl-0 py-xl-3 d-flex justify-content-center mt-2">
               <div className="film-poster row mt-lg-0 h-100">
               <div className="col-6 col-md-3">
-                <Link to="#borders-in-heaven">
+                <Link to="/in-development#borders-in-heaven">
                   <img
                     src={BordersInHeaven}
                     className="img-fluid rounded-3 indev"
@@ -295,7 +298,7 @@ const Home = () => {
                 </Link>
                   </div>
                   <div className="col-6 col-md-3">
-                <Link to={`#keratza`}>
+                <Link to="/in-development#keratza">
                   <img
                     src={Keratza}
                     className="img-fluid rounded-3 indev"
@@ -304,7 +307,7 @@ const Home = () => {
                 </Link>
                 </div>
                 <div className="col-6 col-md-3">
-                <Link to="/in-development">
+                <Link exact to="/in-development#the-magic-snowman-returns">
                   <img
                     src={TheMagicSnowmanReturns}
                     className="img-fluid rounded-3 indev"
@@ -313,7 +316,7 @@ const Home = () => {
                 </Link>
                 </div>
                 <div className="col-6 col-md-3">
-                <Link to="/in-development">
+                <Link to="/in-development#rice">
                   <img
                     src={RiceMilk}
                     className="img-fluid rounded-3 indev"

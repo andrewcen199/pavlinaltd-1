@@ -1,12 +1,24 @@
 import React, { useEffect } from "react";
 import "./films.css";
+import { useLocation } from 'react-router-dom';
 
 import Keratza from "../../../assets/films/keraca-visuleva.webp";
 import RMS from "../../../assets/films/R_M_Stilettos.jpg";
 import SMR from "../../../assets/films/snowmanreturns.jpg";
 
 const Future = () => {
-  useEffect(() => window.scroll(0, 0));
+
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const targetElement = document.querySelector(location.hash);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
+  
 
   return (
     <main className="film">
@@ -142,7 +154,7 @@ const Future = () => {
                     <img src={Keratza} alt="Keratza" className="img-fluid" />
                   </div>
                 </div>
-                <div className="col-12">
+                <div className="col-12" id="rice">
                   <hr className="w-100 mb-5" />
                   <h1>Rice, Milk and Stilettos</h1>
                 </div>

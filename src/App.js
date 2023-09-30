@@ -23,6 +23,7 @@ import MagicSnowman from './components/projects/films/snowman';
 import SnowmanBook from './components/projects/films/snowman-book';
 import Hell from './components/projects/films/hell';
 import Between from './components/projects/films/between';
+// import Location from './components/projects/films/location';
 
 
 
@@ -48,6 +49,7 @@ function App() {
   return (
     <div className="app-outer-div">
         <NavBar />
+        {/* <Location/> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
