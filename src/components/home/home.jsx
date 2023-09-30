@@ -11,6 +11,7 @@ import BordersInHeaven from "../../assets/films/posters/borders in heaven.jpg";
 import Keratza from "../../assets/films/posters/keratza-poster.jpeg";
 import TheMagicSnowmanReturns from "../../assets/films/posters/The-Magic-Snowman-Returns.JPG";
 import RiceMilk from "../../assets/films/R_M_Stilettos.jpg";
+import TheMagicSnowmanAudio from "../../assets/films/Magic Snowman Audiobook-Web.mp3";
 
 
 
@@ -223,24 +224,24 @@ const Home = () => {
                   </Link>
                   <div className="col pt-2 py-lg-5 pt-lg-4 d-none d-lg-block text-center">
                     <h3 className="pb-md-2 pb-2 mt-lg-2">The Magic Snowman</h3>
-                    <div class="d-flex flex-column justify-content-between align-items-center mt-4">
-                      <p class="text-center my-2">
+                    <div class="d-flex flex-column justify-content-between align-items-center">
+                      <p class="text-center">
                         With Sir Roger Moore as the voice of The Magic Snowman
                       </p>
+                      <br></br>
+                      <br></br>
+                      <br></br>
                       <p class="text-center my-2">Narrated by Lilly Talevski</p>
                       <p class="text-center my-2">Music by ben Boian B. Goss</p>
                       <p class="text-center my-2">Sound Design by Mason Ryan</p>
                       <br></br>
                       <br></br>
                       <br></br>
+                      <audio src={TheMagicSnowmanAudio} controls/>
                       <br></br>
                       <br></br>
                       <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
+                   
                       <p class="text-center my-2">Release Date: April 2023</p>
                     </div>
                   </div>

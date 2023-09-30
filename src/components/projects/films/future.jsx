@@ -5,6 +5,7 @@ import { useLocation } from 'react-router-dom';
 import Keratza from "../../../assets/films/keraca-visuleva.webp";
 import RMS from "../../../assets/films/R_M_Stilettos.jpg";
 import SMR from "../../../assets/films/snowmanreturns.jpg";
+import BordersInHeaven from "../../../assets/films/posters/borders in heaven.jpg";
 
 const Future = () => {
 
@@ -60,15 +61,10 @@ const Future = () => {
                     </p>
                     <p>Slated for spring 2022</p>
                   </div>
-                  <div className="col-12 col-md-6 mt-4 mt-md-0 d-flex align-items-center">
-                    <div className="ratio ratio-16x9">
-                      <iframe
-                        src="https://www.youtube.com/embed/q4R1JfTIOpQ"
-                        title="YouTube video player"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                      ></iframe>
-                    </div>
+               
+                  <div className="col-12 col-md-5 mt-4 mt-md-0 d-flex justify-content-center">
+                    <img src={BordersInHeaven} alt="Keratza" className="img-fluid" />
+                 
                   </div>
                 </div>
                 <div className="col-12" id="the-magic-snowman-returns">
