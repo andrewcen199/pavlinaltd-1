@@ -16,9 +16,10 @@ const NavBar = () => {
 
   return (
     <nav class="navbar navbar-expand-lg p-3 py-4 p-md-5 w-100">
-      <div class="container-fluid px-3 px-xl-5 py-xl-4">
+      <div class=" container-fluid px-3 px-xl-5 py-xl-4">
         <Link class="navbar-brand m-0 ps-xl-5 flex-grow-1" to="/home">
           <img src={logo} alt="Pavlina Ltd. Logo"/>
+          
         </Link>
         <button
           id="mobileNavbarToggle"
@@ -47,7 +48,7 @@ const NavBar = () => {
               </Link>
             </li>
             <li class="nav-item">
-              <Link
+              <Link 
                 class="nav-link py-4 py-lg-2 px-lg-2 ms-lg-5"
                 to="/about"
               >

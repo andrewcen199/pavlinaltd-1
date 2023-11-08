@@ -1,82 +1,12 @@
-footer section:first-of-type div.about p {
-  font-size: 0.7rem;
-  font-weight: 300;
-  line-height: 1rem;
+.text-light{
+  height: 90%;
 }
-footer section:first-of-type div.address h6 {
-  height: 40px;
-  font-weight: 500;
-}
-footer section:first-of-type div.address p {
-  font-size: 0.8rem;
-  font-weight: 300;
-}
-footer section:first-of-type div.contact > form {
-  width: 15rem;
-  margin-top: 26px;
-}
-footer section:first-of-type div.contact > form div {
-  width: 100%;
-}
-footer section:first-of-type div.contact > form div label {
-  width: 25%;
-  font-size: 0.8rem;
-  font-weight: 300;
-}
-footer section:first-of-type div.contact > form div input[type=text],
-footer section:first-of-type div.contact > form div input[type=email] {
-  width: 75%;
-  height: 30px;
-  border: none;
-  background-color: transparent;
-  font-size: 0.8rem;
-  font-weight: 300;
-  color: #fff;
-}
-footer section:first-of-type div.contact > form div input[type=text]:focus,
-footer section:first-of-type div.contact > form div input[type=email]:focus {
-  outline: none;
-}
-footer section:first-of-type div.contact > form div input[type=submit] {
-  color: #fff;
-  font-size: 0.8rem;
-  font-weight: 300;
-  background-color: transparent;
-  border: 0.5px solid #5b5b5b;
-  transition: all 0.25s ease;
-}
-footer section:first-of-type div.contact > form div input[type=submit]:hover {
-  background-color: #fff;
-  color: #0f0f0f;
-  font-weight: 500;
-}
-footer section:last-of-type ul {
-  gap: 0.5rem;
-}
-footer section:last-of-type ul svg {
-  font-size: 1.8rem;
-  color: #fff;
-  transition: all 0.3s ease-in-out;
-}
-footer section:last-of-type ul svg:hover {
-  transform: scale(1.1);
-  color: #d30000;
-}
-footer section:last-of-type span {
-  font-size: 0.8rem;
-  font-weight: 300;
-}
-footer section:last-of-type span a {
-  text-decoration: none;
-  color: #fff;
-  transition: all 0.3s ease-in-out;
-}
-footer section:last-of-type span a:hover {
-  color: #d30000;
-}
+
 .custom-bg-color {
+  
   background-color: #94211d;
 }
+
 footer .back-to-top {
   position: absolute;
   bottom: 0;
@@ -88,27 +18,16 @@ footer .back-to-top {
   animation: backToTopAni 1s infinite linear;
 }
 
-@keyframes backToTopAni {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-0.4rem);
-  }
-  100% {
-    transform: translateY(0);
-  }
+
+
+.bottom-contact{
+  line-height:1.5rem;
 }
-@media (max-width: 767.98px) {
-  footer div.contact form {
-    width: 100% !important;
-  }
-  footer section:last-of-type span {
-    font-size: 0.6rem;
-  }
+.bottom-links{
+  font-size: 1.1rem;
+  line-height:1.1rem;
 }
-@media (max-width: 576px) {
-  footer div.about img {
-    height: 30px;
-  }
+.bottom-icons a {
+  padding-right: 10px;
+
 }

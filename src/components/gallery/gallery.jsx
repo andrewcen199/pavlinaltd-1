@@ -50,9 +50,7 @@ const Gallery = () => {
   return (
     <main id="gallery">
       <section className="container p-3 p-3 px-md-0 pt-0">
-        <div className="px-3 px-xl-0 pb-4">
-          <h1 className="m-0 ">On Location</h1>
-        </div>
+
         <div className="px-3 py-4 px-xl-0">
           <h2 className=" mb-2">My Heart Is No Longer An Orphan</h2>
           <div

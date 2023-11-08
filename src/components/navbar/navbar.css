@@ -1,6 +1,6 @@
 nav {
   font-size: 1.1rem !important;
-  transition: background 0.35s ease;
+  
   z-index: 100;
 }
 nav img {
@@ -11,19 +11,15 @@ nav img {
     height: 30px;
   }
 }
-nav .navbar-toggler {
-  border: none;
-}
-nav .navbar-toggler:focus {
-  box-shadow: none;
-}
-nav .navbar-toggler:focus svg {
+
+
+.navbar-nav .nav-link{ 
   color: #94211d;
+  font-weight: bold;
 }
-nav .navbar-toggler svg {
-  font-size: 2em;
-  transition: all 0.3s ease;
+
+.navbar-nav li>a:hover,.navbar-nav li>a:focus,.navbar-nav li.active {
+  color: black;
+  font-weight: bold;
 }
-nav .navbar-toggler svg:hover {
-  color: #94211d;
-}
+

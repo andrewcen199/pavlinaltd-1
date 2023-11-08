@@ -1,45 +1,58 @@
+/* .col-12{
+  float: right;
+} */
+
+
 main#contact {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+
 }
 main#contact section.upper-section {
-  line-height: 1.5rem;
+  line-height:1.5rem;
+ 
+
 }
 main#contact section.upper-section h1 {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: bold;
   color: #94211d;
+  font-family: "Roboto", sans-serif ;
+  text-align: center;
 }
 main#contact section.upper-section div.contact-info h2 {
   font-weight: 700;
   font-size: 1.2rem;
 }
 main#contact section.upper-section div.contact-info h3 {
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Roboto", sans-serif ;
   color: #94211d;
 }
 main#contact section.upper-section form input[type=text],
 main#contact section.upper-section form input[type=email] {
-  width: 100%;
+  width: 75%;
   height: 30px;
+  margin-bottom: 10px;
   border: 0.5px solid #94211d;
-  padding: 5px !important;
+  padding: 5px ;
   background-color: transparent;
   font-size: 0.8rem;
   font-weight: 300;
+  
 }
 main#contact section.upper-section form div.textarea {
-  height: 52.5%;
+  height: 40.5%;
+  width: 75%;
 }
 main#contact section.upper-section form div.textarea textarea {
   border: 0.5px solid #94211d;
-  height: 13rem;
-  padding: 5px !important;
+  height: 10rem;
+  padding: 5px;
   resize: none;
   background-color: transparent;
   font-size: 0.8rem;
   font-weight: 300;
+  
 }
 main#contact section.upper-section form div.textarea textarea:focus {
   outline: none;
@@ -51,6 +64,10 @@ main#contact section.upper-section form input[type=submit] {
   background-color: transparent;
   border: 0.5px solid #94211d;
   transition: all 0.25s ease;
+  margin-right: 77.5%;
+  
+
+  
 }
 main#contact section.upper-section form input[type=submit]:hover {
   background-color: #94211d;
@@ -68,15 +85,16 @@ main#contact section.upper-section form input[type=submit]:hover {
 }
 @media (max-width: 767.98px) {
   main#contact form {
-    min-height: 40vh;
+    min-height: 100vh;
+  
   }
   main#contact form div.textarea {
-    height: 65% !important;
+    height: 65%;
   }
   main#contact form div.textarea textarea {
     border: 0.5px solid #94211d;
     height: 1rem;
-    padding: 5px !important;
+    padding: 5px;
     resize: none;
     background-color: transparent;
     font-size: 0.8rem;
@@ -86,6 +104,27 @@ main#contact section.upper-section form input[type=submit]:hover {
     outline: none;
   }
   main#contact .google-map {
-    min-height: 40vh !important;
+    height: 300px;
+    min-height: 500px;
   }
+  .gm-style-moc{
+    margin-top: 10px;
+  }
+
+}
+.pavlina-contact {
+  color: #94211d;
+  line-height: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.sub-heading{
+  color: #94211d;
+  line-height: 2rem;
+  text-align: center;
+}
+.contact-box iframe{
+  position: relative;
+  height: 350px;
+  width: 500px;
 }

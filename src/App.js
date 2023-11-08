@@ -25,6 +25,10 @@ import Hell from './components/projects/films/hell';
 import Between from './components/projects/films/between';
 // import Location from './components/projects/films/location';
 
+//import web icons
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
 
 
 function App() {
@@ -48,6 +52,7 @@ function App() {
 
   return (
     <div className="app-outer-div">
+        
         <NavBar />
         {/* <Location/> */}
         <Routes>

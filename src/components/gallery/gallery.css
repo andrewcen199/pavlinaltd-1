@@ -4,9 +4,10 @@ main#gallery h1 {
   color: #94211d;
 }
 main#gallery h2 {
-  font-size: 1.6rem;
-  font-family: "Roboto", sans-serif !important;
+  font-size: 1.8rem;
+  font-family: sans-serif !important;
   font-style: italic;
+  font-variant: small-caps;
 }
 main#gallery img {
   width: 100%;

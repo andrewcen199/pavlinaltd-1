@@ -175,10 +175,12 @@ const Home = () => {
                 <h2 className="my-0">Media Projects</h2>
               </div>
               <div className="film-poster row py-2 ps-md-4 py-md-2 pe-lg-4 col-2 col-lg-6 text-center">
-                <div className="row bg-info rounded mt-4">
+                <div className="row bg-info rounded mt-4 ">
                   <Link to="/between-two-worlds" className="col-12 col-lg">
                     <img
+                  
                       src={BetweenTwoWorlds}
+                      id="bottom-image"
                       className="img-fluid rounded-3 p-4 h-100"
                       alt="Between Two Worlds"
                     />
